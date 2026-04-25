@@ -1,8 +1,10 @@
-[gd_scene format=3 uid="uid://b0qer8nhtbmce"]
+[gd_scene load_steps=3 format=3 uid="uid://b0qer8nhtbmce"]
 
 [ext_resource type="Texture2D" uid="uid://ds8d5kt258ric" path="res://Assets/Art/placeholderspaceship.png" id="1_52fb6"]
+[ext_resource type="Script" path="res://Scripts/World/main_scene.gd" id="2_main"]
 
 [node name="Node2D" type="Node2D" unique_id=2084757155]
+script = ExtResource("2_main")
 
 [node name="ColorRect" type="ColorRect" parent="." unique_id=77942042]
 offset_right = 653.0
